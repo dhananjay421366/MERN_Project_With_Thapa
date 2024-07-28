@@ -5,13 +5,13 @@ export default function Register() {
     <>
       <section>
         <main>
-          <div className='md:flex justify-center items-center sm:my-16'>
-            <div className="img grid md:grid-cols-2 mb-4 md:mb-0">
+          <div className='md:flex justify-evenly m-7 md:m-0 items-center sm:my-16'>
+            <div className="img grid md:grid-cols-2 mb-4  sm:flex  justify-center md:mb-0">
               <img src="/images/register.png" className='md:w-[400px] md:h-[500px]  w-52 h-52' alt="a girl is trying to do registration " />
             </div>
             {/*  let tackle registration form  */}
-            <div>
-              <h1 className='mb-3 relative capitalize'>Registration form</h1>
+            <div  className='inline-block m-9 '>
+              <h1 className='mb-3 text-xl relative capitalize'>Registration form</h1>
               <br />
               <form action="">
                 <div>
