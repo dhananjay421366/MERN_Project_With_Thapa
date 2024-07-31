@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes img-slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20vw);
+    }
+    100% {
+      transform: translateX(20vw);
+    }
+  }
+  
+  @keyframes form-slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-20vw);
+      box-shadow: 0 10px 15px rgba(245, 243, 243, 0.1), 0 4px 6px rgba(222, 31, 31, 0.1);
+      
+    }
+    100% {
+      transform: translateX(-20vw);
+    }
+  }
+  
+  .animate-img {
+    animation: img-slide 5s ease-in-out forwards;
+  }
+  
+  .animate-form {
+    animation: form-slide 5s ease-in-out forwards;
+  }
+
+
+  
